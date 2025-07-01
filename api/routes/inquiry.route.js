@@ -1,6 +1,6 @@
-import express from 'express';
-import { createInquiry, getUserInquiries, getPropertyInquiries } from '../controllers/inquiry.controller.js';
-import auth from '../middleware/auth.js';
+const express = require('express');
+const { createInquiry, getUserInquiries, getPropertyInquiries } = require('../controllers/inquiry.controller.js');
+const auth = require('../middleware/auth.js');
 
 const router = express.Router();
 
@@ -11,4 +11,4 @@ router.post('/properties/:propertyId/inquiry', createInquiry);
 router.get('/user/inquiries', auth, getUserInquiries);
 router.get('/properties/:propertyId/inquiries', auth, getPropertyInquiries);
 
-export default router; 
+module.exports = router; 

@@ -1,10 +1,10 @@
-import express from 'express';
-import mongoose from 'mongoose';
-import cors from 'cors';
-import dotenv from 'dotenv';
-import userRoutes from './routes/user.route.js';
-import propertyRoutes from './routes/property.route.js';
-import inquiryRoutes from './routes/inquiry.route.js';
+const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
+const dotenv = require('dotenv');
+const userRoutes = require('./routes/user.route.js');
+const propertyRoutes = require('./routes/property.route.js');
+const inquiryRoutes = require('./routes/inquiry.route.js');
 
 dotenv.config();
 
