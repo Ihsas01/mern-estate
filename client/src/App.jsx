@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
-import HomePage from './pages/HomePage';
+import Home from './pages/Home';
 import PropertyList from './pages/PropertyList';
 import PropertyDetail from './pages/PropertyDetail';
 import ContactForm from './components/ContactForm';
@@ -62,7 +62,7 @@ function App() {
       <div className="min-h-screen bg-gray-50">
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<Home />} />
           <Route path="/properties" element={<PropertyList />} />
           <Route path="/property/:id" element={<PropertyDetail />} />
           <Route path="/search" element={<SearchPage />} />
