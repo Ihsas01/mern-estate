@@ -1,6 +1,6 @@
-import express from 'express';
-import propertyController from '../controllers/property.controller.js';
-import auth from '../middleware/auth.js';
+const express = require('express');
+const propertyController = require('../controllers/property.controller.js');
+const auth = require('../middleware/auth.js');
 
 const router = express.Router();
 
@@ -14,4 +14,4 @@ router.put('/:id', auth, propertyController.updateProperty);
 router.delete('/:id', auth, propertyController.deleteProperty);
 router.get('/user/properties', auth, propertyController.getUserProperties);
 
-export default router; 
+module.exports = router; 
