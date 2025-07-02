@@ -104,7 +104,6 @@ mern-estate/
   - JWT Authentication
   - Multer (for file uploads)
 
-## Contributing
 
 
 
