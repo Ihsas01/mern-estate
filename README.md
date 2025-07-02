@@ -106,7 +106,7 @@ mern-estate/
 
 ## Contributing
 
-1. Fork the repository
+
 
 
 
