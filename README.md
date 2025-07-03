@@ -124,3 +124,13 @@ Multer (file uploads)
 💬 Add real-time chat between buyers & sellers
 
 
+❤️ Contribute & Inspire
+If you'd like, I can also help:
+
+Add stunning CSS effects & hover animations
+
+Build custom modals, cards, and parallax scrolling
+
+Create light & dark themes
+
+Make the UI look truly modern, clean & professional
