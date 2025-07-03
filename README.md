@@ -99,10 +99,7 @@ mern-estate/
 - **Backend:**
   - Node.js
   - Express.js
-  - MongoDB
-  - Mongoose
-  - JWT Authentication
-  - Multer (for file uploads)
+
 
 
 
