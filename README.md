@@ -87,22 +87,7 @@ mern-estate/
     └── public/         # Static files
 ```
 
-## Technologies Used
 
-- **Frontend:**
-  - React.js
-  - React Router
-  - Axios
-  - Tailwind CSS
-  - React Icons
-
-- **Backend:**
-  - Node.js
-  - Express.js
-  - MongoDB
-  - Mongoose
-  - JWT Authentication
-  - Multer (for file uploads)
 
 
 
