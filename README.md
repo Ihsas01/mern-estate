@@ -98,37 +98,6 @@ mern-estate/
 Frontend
 React.js ⚛️
 
-React Router
-
-Axios
-
-Tailwind CSS 🎨
-
-React Icons
-
-Backend
-Node.js
-
-Express.js 🚀
-
-MongoDB + Mongoose
-
-JWT Authentication 🔐
-
-Multer (file uploads)
-
-
-💡 Want to make it even cooler?
-✨ Add animations with Framer Motion
-🔄 Implement infinite scrolling for listings
-📍 Integrate Google Maps to show property locations
-💬 Add real-time chat between buyers & sellers
-
-
-❤️ Contribute & Inspire
-If you'd like, I can also help:
-
-Add stunning CSS effects & hover animations
 
 
 Build custom modals, cards, and parallax scrolling
